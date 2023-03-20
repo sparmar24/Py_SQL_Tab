@@ -6,7 +6,7 @@ import pandas as pd
 import numpy as np
 
 
-def test():
+def main():
     data_preprocessed = pd.read_csv("Absenteeism_preprocessed.csv")
     # data_preprocessed["Absenteeism Time in Hours"].median()
 
@@ -167,6 +167,6 @@ def test():
     #    pickle.dump(absenteeism_scaler, file)
 
 
-print("Calling function test")
+print("Calling main function")
 if __name__ == "__main__":
-    test()
+    main()

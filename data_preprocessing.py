@@ -2,7 +2,7 @@
 import pandas as pd
 import numpy
 
-def test():
+def main():
     df = pd.read_csv("Absenteeism_data.csv")
     """Create cpy of original file before preprocessing"""
     raw = df.copy()
@@ -210,5 +210,5 @@ def test():
 
 print("calling fun")
 if __name__ == "__main__":
-    test()
+    main()
 
